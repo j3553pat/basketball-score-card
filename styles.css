@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background: lightslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#background {
+    border: white solid 10px;
+    background: navy;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+h2 {
+    background: black;
+    color: coral;
+    font-size: 35px;
+    font-family: 'Silkscreen', cursive;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+button {
+    background-color: navy;
+    color: crimson;
+    padding-left: 50px;
+    font-size: 25px;
+    width: max-content;
+}
+
+
+@media screen and (min-width: 667px) {
+ body {
+    background-color: Gray;
+ }
+}
